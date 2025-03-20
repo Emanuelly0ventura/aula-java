@@ -1,5 +1,3 @@
-import javax.xml.transform.sax.SAXResult;
-
 public class Livro {
     //atributo tipo namoAtributo;
 
@@ -15,6 +13,18 @@ public class Livro {
 
     String resumo;
 
-    String tipoCapa;
+    TipoCapaEnum tipoCapa;
 
+    public void exibirLivro(){
+        System.out.println("Livro: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Editor: " + editor);
+        System.out.println("Preço: " + preco);
+        System.out.println("-------------------------------------\n");
+        System.out.println("Tipo de capa: " + tipoCapa);
+    }
+
+    public String exibirTipoCapa() {
+        return "";
+    }
 }
