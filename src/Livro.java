@@ -15,6 +15,14 @@ public class Livro {
 
     TipoCapaEnum tipoCapa;
 
+    public Livro(){
+        tipoCapa = TipoCapaEnum.COMUM;
+    }
+public Livro(Editor editor){
+        this.editor = editor;
+        tipoCapa = TipoCapaEnum.COMUM;
+    }
+
     public void exibirLivro(){
         System.out.println("Livro: " + titulo);
         System.out.println("Autor: " + autor);
