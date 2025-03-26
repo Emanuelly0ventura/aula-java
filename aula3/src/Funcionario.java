@@ -5,19 +5,12 @@ public class Funcionario {
 
     public double calculaerBonus() {
         if (salario > 5000) {
-            return salario * 0.05;
-        }
-        return 0;
-    }
+            return salario * 0.05;}return 0;}
+
     public double calcularGratificacao(){
         if(cargo.equalsIgnoreCase("Vendedor"))
-        {
-            return salario * 0.05;
-        }
-        else
-        {
-            return 500;
-        }
+        {return salario * 0.05;}
+        else  {return 500;}
     }
 
     public String calcularBonus(){

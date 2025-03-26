@@ -19,7 +19,7 @@ public class Livro {
         tipoCapa = TipoCapaEnum.COMUM;
     }
 public Livro(Editor editor){
-        this.editor = editor;
+        this.editor = editor.toString();
         tipoCapa = TipoCapaEnum.COMUM;
     }
 
