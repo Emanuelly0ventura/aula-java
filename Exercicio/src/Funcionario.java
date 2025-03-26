@@ -1,12 +1,17 @@
 public class Funcionario {
     String nome;
     String sobreNome;
-    String nomeCompleto;
     int horasTrabalhadas;
     double valorPorHora;
-    double calculoDoSalario;
+
+
+    public double calcularSalario(){
+            return (horasTrabalhadas * valorPorHora);}
+
+    public String nomeCompleto(){
+        return (nome + " " + sobreNome);}
+
+    }
 
 
 
-
-}
