@@ -30,13 +30,13 @@ public class Testelivro {
         System.out.println("informe o titulo do livro");
         livro.titulo = leitor.nextLine();
         System.out.println("Tipo de capa \n1 - comum\n2 - dura\n3 - personalizada" +"\n Escolha o tipo de capa desejada: ");
-    int opcao = leitorNumerico.nextInt();
-    if(opcao == 1)
-        livro.tipoCapa = TipoCapaEnum.COMUM;
-    else if (opcao == 2)
-        livro.tipoCapa = TipoCapaEnum.DURA;
-    else livro.tipoCapa = TipoCapaEnum.PERSONALIZADA;
 
+        int opcao = leitorNumerico.nextInt();
+        if(opcao == 1)
+            livro.tipoCapa = TipoCapaEnum.COMUM;
+        else if (opcao == 2)
+            livro.tipoCapa = TipoCapaEnum.DURA;
+        else livro.tipoCapa = TipoCapaEnum.PERSONALIZADA;
 
     }
 }

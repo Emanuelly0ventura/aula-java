@@ -3,6 +3,9 @@ public class Editor {
 
     String site;
 
+    public Editor() {
+    }
+
     String telefone;
 
 }

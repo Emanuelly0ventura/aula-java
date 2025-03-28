@@ -15,6 +15,7 @@ public class Livro {
 
     TipoCapaEnum tipoCapa;
 
+
     public Livro(){
         tipoCapa = TipoCapaEnum.COMUM;
     }
@@ -35,4 +36,5 @@ public Livro(Editor editor){
     public String exibirTipoCapa() {
         return "";
     }
+
 }
