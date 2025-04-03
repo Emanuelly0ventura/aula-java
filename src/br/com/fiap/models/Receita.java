@@ -1,3 +1,5 @@
+package br.com.fiap.models;
+
 public class Receita {
 
     String nome;
@@ -19,7 +21,7 @@ public class Receita {
     String foto;
 // metodo sem retorno
     public void exibirReceita() {
-        System.out.println("Receita de " + nome);
+        System.out.println("br.com.fiap.models.Receita de " + nome);
         System.out.println("===================");
         System.out.println("publicado por " + cozinheira);
         System.out.println(dificuldade + "\t" + tempo + "\t" + pedacos);
@@ -31,7 +33,7 @@ public class Receita {
 // metodo com retorno
     public String exibirReceita2()
         {
-            String menssagem = "Receita de" + nome +
+            String menssagem = "br.com.fiap.models.Receita de" + nome +
                     "\n ===================" +
                     "\n publicado por \" + cozinheira" +
                     "\n dificuldade + \"\\t\" + tempo + \"\\t\" + pedacos" +

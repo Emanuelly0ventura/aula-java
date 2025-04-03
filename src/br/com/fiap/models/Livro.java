@@ -1,3 +1,7 @@
+package br.com.fiap.models;
+
+import br.com.fiap.enums.TipoCapaEnum;
+
 public class Livro {
     //atributo tipo namoAtributo;
 
@@ -25,9 +29,9 @@ public Livro(Editor editor){
     }
 
     public void exibirLivro(){
-        System.out.println("Livro: " + titulo);
+        System.out.println("br.com.fiap.models.Livro: " + titulo);
         System.out.println("Autor: " + autor);
-        System.out.println("Editor: " + editor);
+        System.out.println("br.com.fiap.models.Editor: " + editor);
         System.out.println("Preço: " + preco);
         System.out.println("-------------------------------------\n");
         System.out.println("Tipo de capa: " + tipoCapa);

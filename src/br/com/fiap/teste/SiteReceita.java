@@ -1,3 +1,7 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.models.Receita;
+
 public class SiteReceita {
     public static void main(String[] args) {
         Receita bolo = new Receita();

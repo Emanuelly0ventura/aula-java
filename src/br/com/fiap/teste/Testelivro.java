@@ -1,3 +1,8 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.enums.TipoCapaEnum;
+import br.com.fiap.models.Livro;
+
 import java.util.Scanner;
 
 public class Testelivro {
