@@ -1,13 +1,35 @@
 package br.com.fiap.models;
 
 public class Editor {
-    String nome;
+    private String nome;
+    private String site;
+    private String telefone;
 
-    String site;
 
-    public Editor() {
+
+    //Metodos getters e setters//
+
+    public String getNome(){
+        return nome;
     }
 
-    String telefone;
+    public void setNome(String nome){
+        this.nome=nome;
+    }
 
-}
+    public String getSite(){
+        return site;
+    }
+
+    public void setSite(String site){
+        this.nome=site;}
+
+    public String getTelefone(){
+        return telefone;}
+
+    public void setTelefone(String telefone){
+        this.telefone=telefone;}
+
+
+
+    }

@@ -1,6 +1,7 @@
 package br.com.fiap.teste;
 
 import br.com.fiap.enums.TipoCapaEnum;
+import br.com.fiap.models.Editor;
 import br.com.fiap.models.Livro;
 
 import java.util.Scanner;
@@ -13,9 +14,9 @@ public class Testelivro {
 
 
         Editor novatec = new Editor();
-                novatec.nome = "Novatec";
-                novatec.site = "www.novatec.com";
-                novatec.telefone = "111559889";
+                novatec.setNome("Novatec");
+                novatec.setSite("www.novatec.com");
+                novatec.setTelefone("111559889");
 
 
 
@@ -23,25 +24,25 @@ public class Testelivro {
     // sintaxe: tipo nome do objeto = new Tipo();
 
         Livro meulivro = new Livro();
-        meulivro.titulo = "ArloFich";
-        meulivro.paginas = 400;
-        meulivro.preco = 35;
-        meulivro.resumo = "um menino se mudou para sua cidade natal...";
-        meulivro.editor = "novatec";
-        meulivro.tipoCapa = TipoCapaEnum.DURA ;
+        meulivro.setTitulo("ArloFich");
+        meulivro.setPaginas(400);
+        meulivro.setPreco(35);
+        meulivro.setResumo("um menino se mudou para sua cidade natal...");
+        meulivro.setEditor(novatec);
+        meulivro.setTipoCapa(TipoCapaEnum.DURA);
         meulivro.exibirLivro();
 
     Livro livro = new Livro();
         System.out.println("informe o titulo do livro");
-        livro.titulo = leitor.nextLine();
+        livro.setTitulo(leitor.nextLine());
         System.out.println("Tipo de capa \n1 - comum\n2 - dura\n3 - personalizada" +"\n Escolha o tipo de capa desejada: ");
 
         int opcao = leitorNumerico.nextInt();
         if(opcao == 1)
-            livro.tipoCapa = TipoCapaEnum.COMUM;
+            livro.setTipoCapa(TipoCapaEnum.COMUM);
         else if (opcao == 2)
-            livro.tipoCapa = TipoCapaEnum.DURA;
-        else livro.tipoCapa = TipoCapaEnum.PERSONALIZADA;
+            livro.setTipoCapa(TipoCapaEnum.DURA);
+        else livro.setTipoCapa(TipoCapaEnum.PERSONALIZADA);
 
     }
 }
