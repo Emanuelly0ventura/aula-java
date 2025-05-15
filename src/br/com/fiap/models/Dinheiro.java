@@ -1,3 +1,5 @@
+package br.com.fiap.models;
+
 public class Dinheiro {
     String nome;
     double  salario;

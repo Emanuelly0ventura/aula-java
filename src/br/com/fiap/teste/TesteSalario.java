@@ -1,3 +1,7 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.models.Dinheiro;
+
 import java.util.Scanner;
 
 public class TesteSalario {
