@@ -49,5 +49,76 @@ public class Receita {
             return menssagem;
         }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCozinheira(String cozinheira) {
+        this.cozinheira = cozinheira;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setDificuldade(String dificuldade) {
+        this.dificuldade = dificuldade;
+    }
+
+    public void setTempo(int tempo) {
+        this.tempo = tempo;
+    }
+
+    public void setPedacos(int pedacos) {
+        this.pedacos = pedacos;
+    }
+
+    public void setPreparo(String preparo) {
+        this.preparo = preparo;
+    }
+
+    public void setIngredientes(String ingredientes) {
+        this.ingredientes = ingredientes;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCozinheira() {
+        return cozinheira;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public String getDificuldade() {
+        return dificuldade;
+    }
+
+    public int getTempo() {
+        return tempo;
+    }
+
+    public int getPedacos() {
+        return pedacos;
+    }
+
+    public String getPreparo() {
+        return preparo;
+    }
+
+    public String getIngredientes() {
+        return ingredientes;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
 }
 

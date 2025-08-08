@@ -21,9 +21,10 @@ public class Dinheiro {
     public void setSalario(double salario){
            if(quantidadeAnos == 0)
             this.salario=salario;
-    }else{
-        this.salario = this.salario * 1.1;
     }
+    //else{
+   //     this.salario = this.salario * 1.1;
+    //}
     //
     public int getQuantidadeAnos(){
         return quantidadeAnos;
@@ -35,8 +36,8 @@ public class Dinheiro {
             setSalario(this.salario);
     }
 
-    public String exibirFuncionario(){
-        return "Nome: " + setNome();
-    }
+//    public String exibirFuncionario(){
+//        return "Nome: " + setNome();
+//    }
 
 }
